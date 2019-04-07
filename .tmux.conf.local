@@ -272,6 +272,15 @@ tmux_conf_theme_clock_style='24'
 tmux_conf_copy_to_os_clipboard=false
 
 
+# -- keybindings ---------------------------------------------------------------
+
+# pane resizing
+bind -r S-Left resize-pane -L 2
+bind -r S-Down resize-pane -D 2
+bind -r S-Up resize-pane -U 2
+bind -r S-Right resize-pane -R 2
+
+
 # -- user customizations -------------------------------------------------------
 # this is the place to override or undo settings
 
