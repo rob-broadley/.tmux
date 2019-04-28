@@ -257,7 +257,8 @@ tmux_conf_battery_vbar_palette='gradient'
 tmux_conf_battery_status_charging='ﮣ'    # U+FBA3
 tmux_conf_battery_status_discharging='' # U+F580
 
-# clock style
+# clock style (when you hit <prefix> + t)
+# you may want to use %I:%M %p in place of %R in tmux_conf_theme_status_right
 tmux_conf_theme_clock_colour='#00afff'  # light blue
 tmux_conf_theme_clock_style='24'
 
